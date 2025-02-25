@@ -1,6 +1,7 @@
+
 import string
 import sys
-from students_code import words_in, lookup_word_count
+from Hash import words_in, lookup_word_count
 
 # Read and process text file
 def process_text_file(filename):
