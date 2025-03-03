@@ -13,7 +13,7 @@ def process_text_file(filename):
 # Main function to run the simulation
 def main():
     # Read and process the input file
-    filename = "testy.txt"#"alice.txt"#input("enter a file name ") # Change this to your text file name
+    filename = input("enter a file name ") # Change this to your text file name
     words_list = process_text_file(filename)
     # Run students' words_in function
     num_buckets, collisions = words_in(words_list)
